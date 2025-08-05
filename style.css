@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+  padding: 2rem;
+  color: #333;
+}
+
+.pricing-section {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1d2b64;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.pricing-table th {
+  background: #1d2b64;
+  color: white;
+  position: relative;
+}
+
+.badge {
+  background: #f8cdda;
+  color: #1d2b64;
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-left: 8px;
+}
+
+.highlight {
+  background: #eef1fc;
+  font-weight: bold;
+}
+
+.pricing-table tr:hover td {
+  background: #f9f9f9;
+  transition: background 0.3s ease;
+}
+
+.btn {
+  background: #1d2b64;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #f8cdda;
+  color: #1d2b64;
+}
+
+@media (max-width: 768px) {
+  .pricing-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
